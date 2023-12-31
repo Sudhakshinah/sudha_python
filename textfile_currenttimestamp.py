@@ -18,7 +18,7 @@ file_as_timestamp()
 
 # function to read the file
 def readfile1():
-    content = open("2023-12-31 22-28-02.txt", "r")
+    content = open(current_timestamp.strftime("%Y-%m-%d %H-%M-%S")+".txt", "r")
     print(content.read())
 
 
